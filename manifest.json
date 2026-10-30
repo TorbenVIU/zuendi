@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Zündi",
+  "version": "1.0.0",
+  "description": "HTTP-Requests sammeln und per Klick auslösen.",
+  "permissions": ["storage", "sidePanel"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "side_panel": {
+    "default_path": "index.html"
+  },
+  "action": {
+    "default_title": "Zündi öffnen"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
